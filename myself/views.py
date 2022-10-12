@@ -1,3 +1,4 @@
+import re
 from django.shortcuts import render
 
 
@@ -9,3 +10,6 @@ def about(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def works(request):
+    return render(request, 'works.html')
