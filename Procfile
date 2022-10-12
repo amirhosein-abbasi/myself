@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn mysst.wsgi --log-file=-
+web: gunicorn myself.wsgi --log-file=-
